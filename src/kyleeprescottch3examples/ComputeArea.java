@@ -12,10 +12,12 @@ public class ComputeArea {
 		Scanner input=new Scanner(System.in);
 		
 		//step one:enter the radius of a circle
+		 double area; 
+		 double radius;
+		 
 		//constant declinations 
-		  double radius;
-		  double PI= 3.1415926535979323846264338327950288419716939;
-		  double area; 
+		 final  double PI= 3.1415926535979323846264338327950288419716939;
+		 
 		  
 		  //assign a value to the radius 
 		  System.out.println("Eneter the radius of a cirlce and press enter");
