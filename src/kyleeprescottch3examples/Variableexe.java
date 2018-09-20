@@ -50,8 +50,23 @@ public class Variableexe {
 		 int z = 50;
 		 System.out.println(x = 7);
 		 
+		 int count;
+		 count = 1;
+		 count = count + 1;
 		 
-		
+		 count +=1;
+		 
+		 ++//increase by one
+		 --//decrease on 
+		 
+		 count++;
+		 count--;
+		 ++count;
+		 
+		 x = count++;
+		 System.out.print(x);
+		 x = ++count;
+		 System.out.print(x);
 		
 		
 		
