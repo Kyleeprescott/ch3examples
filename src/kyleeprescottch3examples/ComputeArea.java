@@ -12,7 +12,7 @@ public class ComputeArea {
 		Scanner input=new Scanner(System.in);
 		
 		//step one:enter the radius of a circle
-		 double area; 
+		 double area =  input.nextDouble();
 		 double radius;
 		 
 		//constant declinations 
@@ -27,7 +27,10 @@ public class ComputeArea {
 		  
 		//step two:compute the area using the following formula:
 		//area=radius*radius* pi 
-		area=radius*radius*PI;
+System.out.println("Eneter the radius of a cirlce and press enter");
+		  
+		  radius = input.nextDouble();
+		 
 		
  		//step three:display result
 		
