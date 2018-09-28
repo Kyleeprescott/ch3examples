@@ -14,8 +14,9 @@ public class Variableexe {
 		//true and false 
 		boolean bool1;// true or false 64 bits 
 		//whole numbers 
+		//ints 
 		byte x1;//(-128 to 127) 8 bits 
-	nextByte()
+	nextByte();
 		short x2;//-32768 to 32767 16 bits 
 	nextShort();
 		int num;//whole number can be positive or negative (-21747483648 to 21747483648) 32 bits
@@ -24,6 +25,7 @@ public class Variableexe {
 		nextLong()
 		
 		//fractional numbers or real numbers 
+		//floating point data 
 		double num1;// fractional numbers can be positive or negative numbers 64 bits-1.7976931348623157E + 308 to -409e-324 
 		nextDouble()
 		float x4;// negative range -3.4028235E to 38 to -1.4E - 45 32 bits 
@@ -32,7 +34,20 @@ public class Variableexe {
 		String x5;// 64 bits not a data type 
 		next();
 		nextline()
-		
+		//numeric operators
+		/* 
+	     +
+		-
+		/
+		% fits in the same place as division 
+		*/
+		//augmented assignment operators 
+		/*
+		 * += , -= , *= , /= , %= 
+		 */
+		// increment operator 
+		//pre increment(i++)post increment(++i) (i--)(--i)
+		// january 1 1970 is known as unix epoch
 		num1 = 10;
 		num2 = 3.547; 
 		char1 = 'f';
