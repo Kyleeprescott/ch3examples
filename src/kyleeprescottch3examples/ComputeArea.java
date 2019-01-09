@@ -20,14 +20,14 @@ public class ComputeArea {
 		 
 		  
 		  //assign a value to the radius 
-		  System.out.println("Eneter the radius of a cirlce and press enter");
+		  System.out.println("Enter the radius of a cirlce and press enter");
 		  
 		  radius = input.nextDouble();
 		 
 		  
 		//step two:compute the area using the following formula:
 		//area=radius*radius* pi 
-System.out.println("Eneter the radius of a cirlce and press enter");
+System.out.println("Enter the radius of a cirlce and press enter");
 		  
 		  radius = input.nextDouble();
 		 
@@ -35,6 +35,7 @@ System.out.println("Eneter the radius of a cirlce and press enter");
  		//step three:display result
 		
 		System.out.println("The area of your circle is:"+ area +"\"");
- 	}
-
+	}
+	
 }
+ 	

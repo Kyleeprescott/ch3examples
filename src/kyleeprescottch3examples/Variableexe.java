@@ -20,9 +20,9 @@ public class Variableexe {
 		short x2;//-32768 to 32767 16 bits 
 	nextShort();
 		int num;//whole number can be positive or negative (-21747483648 to 21747483648) 32 bits
-	nextInt()
+	nextInt();
 		long x3;//(-92233722036854775808 to 92233722036854775808) 64 bits 
-		nextLong()
+		nextLong();
 		
 		//fractional numbers or real numbers 
 		//floating point data 
